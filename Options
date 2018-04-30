@@ -21,4 +21,4 @@
  P [ ] Mathematics and science packages
  S [ ] TeXworks editor; TL includes only the Windows binary
 
-Choose option: O and remove the doc tree.
+Choose option: O and remove the doc tree; all formats; macro sources.
