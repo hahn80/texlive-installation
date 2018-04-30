@@ -1,0 +1,24 @@
+ a [X] Essential programs and files      w [ ] Italian                         
+ b [X] BibTeX additional styles          x [ ] Japanese                        
+ c [X] TeX auxiliary programs            y [ ] Korean                          
+ d [ ] ConTeXt and packages              z [ ] Other languages                 
+ e [ ] Additional fonts                  A [ ] Polish                          
+ f [ ] Recommended fonts                 B [ ] Portuguese                      
+ g [X] Graphics and font utilities       C [ ] Spanish                         
+ h [ ] Additional formats                D [X] LaTeX fundamental packages      
+ i [ ] Games typesetting                 E [ ] LaTeX additional packages       
+ j [ ] Humanities packages               F [ ] LaTeX recommended packages      
+ k [ ] Arabic                            G [ ] LuaTeX packages                 
+ l [ ] Chinese                           H [ ] MetaPost and Metafont packages  
+ m [ ] Chinese/Japanese/Korean (base)    I [ ] Music packages                  
+ n [ ] Cyrillic                          J [ ] Graphics, pictures, diagrams    
+ o [ ] Czech/Slovak                      K [ ] Plain (La)TeX packages          
+ p [ ] US and UK English                 L [ ] PSTricks                        
+ s [ ] Other European languages          M [ ] Publisher styles, theses, etc.  
+ t [ ] French                            N [ ] Windows-only support programs   
+ u [ ] German                            O [ ] XeTeX and packages              
+ v [ ] Greek                            
+ P [ ] Mathematics and science packages
+ S [ ] TeXworks editor; TL includes only the Windows binary
+
+Choose option: O and remove the doc tree.
