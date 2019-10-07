@@ -531,6 +531,17 @@
   \edef#1{\strip@pt\dimen@}}
 \Gin@codes
 \let\Gin@codes\relax
+% alow use of current .def files
+\def\set@curr@file#1{%
+  \begingroup
+    \escapechar\m@ne
+    \xdef\@curr@file{\expandafter\string\csname #1\endcsname}%
+  \endgroup
+}
+\def\quote@name#1{"\quote@@name#1\@gobble""}
+\def\quote@@name#1"{#1\quote@@name}
+\def\unquote@name#1{\quote@@name#1\@gobble"}
+%
 \endinput
 %%
 %% End of file `graphics.sty'.
