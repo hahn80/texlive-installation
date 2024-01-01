@@ -1,15 +1,15 @@
-# texlive.profile written on Thu Dec 21 12:47:33 2023 UTC
+# texlive.profile written on Fri Sep  1 12:21:56 2023 UTC
 # It will NOT be updated and reflects only the
 # installation profile at installation time.
 selected_scheme scheme-custom
-TEXDIR /home/hanh/Profiles/texlive
-TEXMFCONFIG ~/.texlive/texmf-config
-TEXMFHOME ~/Profiles/texlive/texmf-hanh
-TEXMFLOCAL /home/hanh/Profiles/texlive/texmf-local
-TEXMFSYSCONFIG /home/hanh/Profiles/texlive/texmf-config
-TEXMFSYSVAR /home/hanh/Profiles/texlive/texmf-var
-TEXMFVAR ~/.texlive/texmf-var
-binary_x86_64-linux 1
+TEXDIR /Users/hvnguyen/OneDrive/texlive/2023
+TEXMFCONFIG ~/Library/texlive/2023/texmf-config
+TEXMFHOME ~/OneDrive/texlive/texmf
+TEXMFLOCAL /Users/hvnguyen/OneDrive/texlive/texmf-local
+TEXMFSYSCONFIG /Users/hvnguyen/OneDrive/texlive/2023/texmf-config
+TEXMFSYSVAR /Users/hvnguyen/OneDrive/texlive/2023/texmf-var
+TEXMFVAR ~/Library/texlive/2023/texmf-var
+binary_universal-darwin 1
 collection-basic 1
 collection-bibtexextra 1
 collection-binextra 1
