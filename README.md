@@ -20,11 +20,20 @@ Options to install texlive from console.
 	`tlmgr init-usertree`
 	
 8. More packages for user:
-Fonts:
-	`tlmgr --user-mode install avantgar courier utopia helvetic times vntex bookman palatino`
-Beamer:
-	`tlmgr --user-mode install beamer tocbibind booktabs sectsty tocloft caption subfig translator`
-Jupyter:
-	`tlmgr --user-mode install pdfcol adjustbox tcolorbox collectbox ucs environ enumitem wrapfig capt-of parskip float upquote eurosym fontspec unicode-math fancyvrb titling jknapltx lm-math`
+
+- Fonts:
+	```
+	tlmgr --user-mode install avantgar courier utopia helvetic times vntex bookman palatino
+	```
+
+- Beamer:
+	```
+	tlmgr --user-mode install beamer tocbibind booktabs sectsty tocloft caption subfig translator
+	```
+
+- Jupyter:
+	```
+	tlmgr --user-mode install pdfcol adjustbox tcolorbox collectbox ucs environ enumitem wrapfig capt-of parskip float upquote eurosym fontspec unicode-math fancyvrb titling jknapltx lm-math
+	```
 
 *Notice*: `tlpdbopt_autobackup 0 -- disable backing up tl databases.`
