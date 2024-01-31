@@ -35,5 +35,10 @@ Options to install texlive from console.
 	```
 	tlmgr --user-mode install pdfcol adjustbox tcolorbox collectbox ucs environ enumitem wrapfig capt-of parskip float upquote eurosym fontspec unicode-math fancyvrb titling jknapltx lm-math
 	```
+	
+- Math Font Open Types:
+	```
+	tlmgr --user-mode install xcharter xcharter-math stix2-otf
+	```
 
 *Notice*: `tlpdbopt_autobackup 0 -- disable backing up tl databases.`
