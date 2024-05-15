@@ -23,7 +23,7 @@ Options to install texlive from console.
 
 - Fonts:
 	```
-	tlmgr --user-mode install avantgar courier utopia helvetic times vntex bookman palatino
+	tlmgr --user-mode install avantgar bookman charter courier helvetic mathpazo palatino times utopia vntex
 	```
 
 - Beamer:
@@ -41,4 +41,10 @@ Options to install texlive from console.
 	tlmgr --user-mode install xcharter xcharter-math stix2-otf
 	```
 
+- Missing type 1 for European Computer Modern Fonts: (Error: tcrm1200)
+	```
+	tlmgr --user-mode install cm-super
+	```
+
 *Notice*: `tlpdbopt_autobackup 0 -- disable backing up tl databases.`
+Install perl-lib: `sudo apt install libfile-copy-recursive-perl`
